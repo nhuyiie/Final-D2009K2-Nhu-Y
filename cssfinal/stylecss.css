@@ -1,0 +1,735 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+}
+.wrapper{
+	width: 1200px;
+	background:rgba(225,225,225,1.00);
+}
+.header{
+	width: 100%;
+	background:rgba(85,125,232,1.00);
+	display: flex;
+	box-sizing: border-box;
+	padding: 20px 80px;
+}
+.logo{
+	width: 20%;
+}
+.logo a{
+	color: white;
+	text-decoration: none;
+	letter-spacing: 1px;
+	font-family: 'Yellowtail', cursive;
+	font-size: 26px;
+}
+.menu{
+	width:70%
+}
+.menu ul{
+	list-style: none;
+	justify-content:center;
+	display: flex;
+}
+.menu ul li{
+	position: relative;
+	line-height: 37px;
+	width: 100px;
+	height: 40px;
+	border: 0px solid black;
+	text-align: center;
+}
+.menu ul li a{
+	color: white;
+	text-decoration: none;
+	display: block;
+}
+.menu ul li a:hover{
+	color: #1f1f1f;
+}
+.sub-menu{
+	display: block !important;
+	position: absolute;
+	top:40px;
+	width: 0%;
+	left:0px;
+	overflow: hidden;
+	transition-duration: 2s;
+}
+.menu ul li:hover .sub-menu{
+	width: 100%;
+	background: lightgrey;
+}
+.icon a{
+	color:white;
+	font-size:26px;
+	margin: 30px 12px;
+}
+.main{
+	width: 100%;
+}
+.banner{
+	width: 100%;
+	height: 400px;
+	background: url(../img/nhatrang2.jpg);
+	background-size: cover;
+	padding-top: 80px;
+	box-sizing: border-box;
+}
+.text-box{
+	text-align: center;
+}
+.text-box h1{
+	margin-bottom: 10px;
+	margin-top: 45px;
+	font-size: 45px;
+	color: white;
+}
+.text-box h3{
+	font-size: 18px;
+	color: white;
+	margin-bottom: 90px;
+}
+.box{
+	padding:10px;
+	margin-left:20px;
+	margin-top: 15px;
+}
+td{
+	padding-top:10px;
+	padding-left: 20px;
+	padding-right: 30px;
+}
+input{
+	width: 100%;
+	box-sizing: border-box;
+	padding: 8px 0;
+	text-align: center;
+	margin-left: 25px;	
+}
+buttom{
+	background:rgba(85,125,232,1.00);
+	padding: 8px;
+}
+.personal{
+	width: 100%;
+	height: 340px;
+}
+.video{
+	width: 700px;
+	height: 300px;
+	float: right;
+	margin-right: 40px;
+	margin-top: 40px
+}
+.infor{
+	width: 380px;
+	height: 300px;
+	float: left;
+	margin-left: 40px;
+}
+.personal h2{
+	margin-bottom: 24px;
+	margin-top:34px;
+	font-size: 28px;
+	color: #1f1f1f;
+}
+.personal h4{
+	font-size: 19px;
+	color: #1f1f1f;
+}
+.nav-1{
+	width: 100%;
+}
+.nav-1 h2{
+	margin-left: 40px;
+	margin-top: 60px;
+	font-size: 25px;
+}
+.hotel{
+	width: 100%;
+	margin: 0px 40px;
+	height: 270px;
+	margin-top: 20px;
+}
+.hotel-1{
+	width: 272.5px;
+	height: 250px;
+	margin-right: 10px;
+	background: white;
+	float: left;
+}
+.img-1{
+	background: url(../img/Inter.jpg);
+	background-size: cover;
+	width: 100%;
+	height: 165px;
+}
+.hotel-1 h3{
+	font-size:20px;
+	margin-top: 5px;
+	text-align: center;
+}
+.hotel-1 h5{
+	font-size: 12px;
+	margin-top: 5px;
+	text-align: center;
+}
+.hotel-1 h4{
+	font-size: 16px;
+	margin-top: 5px;
+	text-align: center;
+}
+.hotel-2{
+	width: 272.5px;
+	height: 250px;
+	background: white;
+	margin-right: 10px;
+	float: left;
+}
+.img-2{
+	background: url(../img/sheraton.jpg);
+	background-size:cover;
+	height: 165px;
+}
+.hotel-2 h3{
+	font-size:20px;
+	margin-top: 5px;
+	text-align: center;
+}
+.hotel-2 h5{
+	font-size: 12px;
+	margin-top: 5px;
+	text-align: center;
+}
+.hotel-2 h4{
+	font-size: 16px;
+	margin-top: 5px;
+	text-align: center;
+}
+.hotel-3{
+	width: 272.5px;
+	height: 250px;
+	background: white;
+	margin-right: 10px;
+	float: left;
+}
+.img-3{
+	width: 100%;
+	height: 165px;
+	background: url(../img/alan.jpg);
+	background-size: cover;
+}
+.hotel-3 h3{
+	font-size:20px;
+	margin-top: 5px;
+	text-align: center;
+}
+.hotel-3 h5{
+	font-size: 12px;
+	margin-top: 5px;
+	text-align: center;
+}
+.hotel-3 h4{
+	font-size: 16px;
+	margin-top: 5px;
+	text-align: center;
+}
+.hotel-4{
+	width: 272.5px;
+	height: 250px;
+	background: white;
+	float: left;
+}
+.img-4{
+	background: url(../img/muongthanh.jpg);
+	background-size: cover;
+	height: 165px;
+	width: 100%;
+}
+.hotel-4 h3{
+	font-size:20px;
+	margin-top: 5px;
+	text-align: center;
+}
+.hotel-4 h5{
+	font-size: 12px;
+	margin-top: 5px;
+	text-align: center;
+}
+.hotel-4 h4{
+	font-size: 16px;
+	margin-top: 5px;
+	text-align: center;
+}
+.nav-2{
+	width: 100%;
+}
+.nav-2 h2{
+	margin-left: 40px;
+	margin-top: 35px;
+	font-size: 25px;
+}
+.des-a{
+	width: 100%;
+	margin: 0px 40px;
+	height: 270px;
+	margin-top: 20px;
+}
+.des-1{
+	width: 272.5px;
+	height: 250px;
+	background: white;
+	margin-right: 10px;
+	float: left;
+}
+.di-1{
+	background: url(../img/thap-ba-ponagar.jpg);
+	background-size: cover;
+	height: 200px;
+	width: 100%;
+}
+.di-1:hover{
+	filter: blur(1px) brightness(100%) grayscale(50%);
+}
+.des-1 h3{
+	font-size:20px;
+	margin-top: 12px;
+	text-align: center;
+}
+.des-2{
+	width: 272.5px;
+	height: 250px;
+	background: white;
+	margin-right: 10px;
+	float: left;
+}
+.di-2{
+	background: url(../img/chua-long-son-1-768x585.jpg);
+	background-size: cover;
+	height: 200px;
+	width: 100%;
+}
+.di-2:hover{
+	filter: blur(1px) brightness(100%) grayscale(50%);
+}
+.des-2 h3{
+	font-size:20px;
+	margin-top: 12px;
+	text-align: center;
+}
+.des-3{
+	width: 272.5px;
+	height: 250px;
+	background: white;
+	margin-right: 10px;
+	float: left;
+}
+.di-3{
+	background:url(../img/dao-khi-nha-trang4.jpg);
+	background-size: cover;
+	height: 200px;
+	width: 100%;
+}
+.di-3:hover{
+	filter: blur(1px) brightness(100%) grayscale(50%);
+}
+.des-3 h3{
+	font-size:20px;
+	margin-top: 12px;
+	text-align: center;
+}
+.des-4{
+	width: 272.5px;
+	height: 250px;
+	background: white;
+	float: left;
+}
+.di-4{
+	background: url(../img/đảo-hòn-tằm-nha-trang-6-768x542.jpg);
+	background-size: cover;
+	height: 200px;
+	width: 100%;
+}
+.di-4:hover{
+	filter: blur(1px) brightness(100%) grayscale(50%);
+}
+.des-4 h3{
+	font-size:20px;
+	margin-top: 12px;
+	text-align: center;
+}
+.des-b{
+	width: 100%;
+	margin: 0px 40px;
+	height: 270px;
+	margin-top:5px;
+}
+.des-5{
+	width: 272.5px;
+	height: 250px;
+	background: white;
+	margin-right: 10px;
+	float: left;
+}
+.di-5{
+	background: url(../img/vinpearl-nha-trang-768x432.jpg);
+	background-size: cover;
+	height: 200px;
+	width: 100%;
+}
+.di-5:hover{
+	filter: blur(1px) brightness(100%) grayscale(50%);
+}
+.des-5 h3{
+	font-size:20px;
+	margin-top: 12px;
+	text-align: center;
+}
+.des-6{
+	width: 272.5px;
+	height: 250px;
+	background: white;
+	margin-right: 10px;
+	float: left;
+}
+.di-6{
+	background: url(../img/amian.jpg);
+	background-size: cover;
+	height: 200px;
+	width: 100%;
+}
+.di-6:hover{
+	filter: blur(1px) brightness(100%) grayscale(50%);
+}
+.des-6 h3{
+	font-size:20px;
+	margin-top: 12px;
+	text-align: center;
+}
+.des-7{
+	width: 272.5px;
+	height: 250px;
+	background: white;
+	margin-right: 10px;
+	float: left;
+}
+.di-7{
+	background: url(../img/diamondbay.jpg);
+	background-size: cover;
+	height: 200px;
+	width: 100%;
+}
+.di-7:hover{
+	filter: blur(1px) brightness(100%) grayscale(50%);
+}
+.des-7 h3{
+	font-size:20px;
+	margin-top: 12px;
+	text-align: center;
+}
+.des-8{
+	width: 272.5px;
+	height: 250px;
+	background: white;
+	float: left;
+}
+.di-8{
+	background:url(../img/173538974.jpg);
+	background-size: cover;
+	height: 200px;
+	width: 100%;
+}
+.di-8:hover{
+	filter: blur(1px) brightness(100%) grayscale(50%);
+}
+.des-8 h3{
+	font-size:20px;
+	margin-top: 12px;
+	text-align: center;
+}
+.nav-3{
+	width: 100%;
+}
+.nav-3 h2{
+	margin-left: 40px;
+	margin-top: 60px;
+	font-size: 25px;
+}
+.bar{
+	width: 100%;
+	margin: 0px 40px;
+	height: 270px;
+	margin-top: 20px;
+}
+.bar-1{
+	width: 272.5px;
+	height: 250px;
+	margin-right: 10px;
+	background: white;
+	float: left;
+}
+.rab-1{
+	background: url(../img/skylight.jpg);
+	background-size: cover;
+	width: 100%;
+	height: 165px;
+}
+.bar-1 h3{
+	font-size:20px;
+	margin-top: 5px;
+	text-align: center;
+}
+.bar-1 h5{
+	font-size: 12px;
+	margin-top: 5px;
+	text-align: center;
+}
+.bar-1 h4{
+	font-size: 14px;
+	margin-top: 5px;
+	text-align: center;
+}
+.bar-2{
+	width: 272.5px;
+	height: 250px;
+	margin-right: 10px;
+	background: white;
+	float: left;
+}
+.rab-2{
+	background: url(../img/havana-club-nha-trang-8.jpg);
+	background-size: cover;
+	width: 100%;
+	height: 165px;
+}
+.bar-2 h3{
+	font-size:20px;
+	margin-top: 5px;
+	text-align: center;
+}
+.bar-2 h5{
+	font-size: 12px;
+	margin-top: 5px;
+	text-align: center;
+}
+.bar-2 h4{
+	font-size: 14px;
+	margin-top: 5px;
+	text-align: center;
+}
+.bar-3{
+	width: 272.5px;
+	height: 250px;
+	margin-right: 10px;
+	background: white;
+	float: left;
+}
+.rab-3{
+	background: url(../img/altitude-rooftop-bar.jpg);
+	background-size: cover;
+	width: 100%;
+	height: 165px;
+}
+.bar-3 h3{
+	font-size:20px;
+	margin-top: 5px;
+	text-align: center;
+}
+.bar-3 h5{
+	font-size: 12px;
+	margin-top: 5px;
+	text-align: center;
+}
+.bar-3 h4{
+	font-size: 14px;
+	margin-top: 5px;
+	text-align: center;
+}
+.bar-4{
+	width: 272.5px;
+	height: 250px;
+	background: white;
+	float: left;
+}
+.rab-4{
+	background: url(../img/louisiane.jpg);
+	background-size: cover;
+	width: 100%;
+	height: 165px;
+}
+.bar-4 h3{
+	font-size:20px;
+	margin-top: 5px;
+	text-align: center;
+}
+.bar-4 h5{
+	font-size: 12px;
+	margin-top: 5px;
+	text-align: center;
+}
+.bar-4 h4{
+	font-size: 14px;
+	margin-top: 5px;
+	text-align: center;
+}
+.nav-4{
+	width: 1160px;
+	background: rgba(225,225,225,1.00);
+	height: 350px;
+	margin-left: 40px;
+}
+.nav-4 h2{
+	margin-left:0px;
+	margin-top: 60px;
+	margin-bottom: 20px;
+	font-size: 25px;
+}
+.out{
+	width: 100%;
+	margin: 0px 40px;
+	height: 270px;
+	margin-top: 20px;
+}
+.out-1{
+	width: 272.5px;
+	height: 250px;
+	margin-right: 10px;
+	background: white;
+	float: left;
+}
+.tuo-1{
+	background: url(../img/fly.jpg);
+	background-size: cover;
+	width: 100%;
+	height: 165px;
+}
+.out-1 h3{
+	font-size:20px;
+	margin-top: 5px;
+	text-align: center;
+}
+.out-1 h5{
+	font-size: 12px;
+	margin-top: 5px;
+	text-align: center;
+}
+.out-1 h4{
+	font-size: 14px;
+	margin-top: 5px;
+	text-align: center;
+}
+.out-2{
+	width: 272.5px;
+	height: 250px;
+	margin-right: 10px;
+	background: white;
+	float: left;
+}
+.tuo-2{
+	background: url(../img/scuba-diving-in-nha-trang-1024x573.jpg);
+	background-size: cover;
+	width: 100%;
+	height: 165px;
+}
+.out-2 h3{
+	font-size:20px;
+	margin-top: 5px;
+	text-align: center;
+}
+.out-2 h5{
+	font-size: 12px;
+	margin-top: 5px;
+	text-align: center;
+}
+.out-2 h4{
+	font-size: 14px;
+	margin-top: 5px;
+	text-align: center;
+}
+.out-3{
+	width: 272.5px;
+	height: 250px;
+	margin-right: 10px;
+	background: white;
+	float: left;
+}
+.tuo-3{
+	background: url(../img/1e7969d900e35d8ae4885c5bf74a24cd.jpg);
+	background-size: cover;
+	width: 100%;
+	height: 165px;
+}
+.out-3 h3{
+	font-size:20px;
+	margin-top: 5px;
+	text-align: center;
+}
+.out-3 h5{
+	font-size: 12px;
+	margin-top: 5px;
+	text-align: center;
+}
+.out-3 h4{
+	font-size: 14px;
+	margin-top: 5px;
+	text-align: center;
+}
+.out-4{
+	width: 272.5px;
+	height: 250px;
+	background: white;
+	float: left;
+}
+.tuo-4{
+	background: url(../img/image7.jpeg);
+	background-size: cover;
+	width: 100%;
+	height: 165px;
+}
+.out-4 h3{
+	font-size:20px;
+	margin-top: 5px;
+	text-align: center;
+}
+.out-4 h5{
+	font-size: 12px;
+	margin-top: 5px;
+	text-align: center;
+}
+.out-4 h4{
+	font-size: 14px;
+	margin-top: 5px;
+	text-align: center;
+}
+.footer{
+	height: 240px;
+	width: 100%;
+	background: rgba(225,225,225,1.00);
+	margin: 20px 0;
+}
+.end{
+	width:1120px;
+	margin: 40px 40px;
+}
+.end a{
+	font-size: 24px;
+	color: #1f1f1f;
+	text-decoration: none;
+	letter-spacing: 1px;
+	margin: 10px 500px
+}
+.end p{
+	font-size: 12px;
+	color: #1f1f1f;
+	margin: 10px 450px;
+	text-align: center;
+}
+.credit p{
+	font-size: 12px;
+	color: #1f1f1f;
+	text-align: center;
+}
